@@ -1,2 +1,9 @@
 numpy
 pandas
+torch
+torchaudio
+torchvision
+scikit-learn
+pydicom
+matplotlib
+nibabel
