@@ -7,3 +7,4 @@ scikit-learn
 pydicom
 matplotlib
 nibabel
+monai
