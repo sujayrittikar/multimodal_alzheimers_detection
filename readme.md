@@ -10,4 +10,4 @@
 8. Refer to the `adni_subject_file_ma.json` to map each subject to image files and, `ADNI1_Complete_1Yr_1.5T_1_26_2025.csv` to refer to the CSV data for files.
 9. 13 March:  Yo man kindly check out the code of the **BEIT** transformer for the end to end training and evaluation. Also, check out the three data splits and the image directory.
 10. 15 March: Check out the notebook **"Uni-Modal and Multi Modal results.ipynb"** located in the Uni-Modal folder. It contains the results of Uni-modal evaluations as well as the Multimodal - Early and Mid fusion.
-11. 15 March: Also checkout the results table uploaded with the name **DIP Results (1).pdf**. 
+11. 15 March: Also checkout the results table uploaded with the name **DIP Results (1).pdf**. It contains the results of uni-modal and multi-modal using different classifiers. 
