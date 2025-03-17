@@ -11,4 +11,4 @@
 9. 13 March:  Yo man kindly check out the code of the **BEIT** transformer for the end to end training and evaluation. Also, check out the three data splits and the image directory.
 10. 15 March: Check out the notebook **"Uni-Modal and Multi Modal results.ipynb"** located in the Uni-Modal folder. It contains the results of Uni-modal evaluations as well as the Multimodal - Early and Mid fusion.
 11. 15 March: Also checkout the results table uploaded with the name **DIP Results (1).pdf**. It contains the results of uni-modal and multi-modal using different classifiers.
-12. 17: March: Manjot -> I have uploaded a notebook that contisn the uni-modal vs multi modal code in a systematic and 
+12. 17: March: Manjot -> I have uploaded a notebook that contisn the uni-modal vs multi modal code in a systematic and cleaned manner. Just 
