@@ -9,7 +9,7 @@ OPENAI_API_KEY = ""
 FEATURE_COLS = ["Image Data ID", "Age", "GENOTYPE", "CDGLOBAL", "CDRSB", "MMSCORE", "HMSCORE", "NPISCORE", "GDTOTAL"]
 
 
-class MultilingualDataset(BaseModel):
+class VLMDataset(BaseModel):
     classification: str
     reasoning: str
 
@@ -74,7 +74,7 @@ def get_gpt_4o_response(base64_image, clinical_data_dict, openai_client=None):
                 ],
             }
         ],
-        response_format=MultilingualDataset,
+        response_format=VLMDataset,
     )
     return completion.choices[0].message.parsed
 
