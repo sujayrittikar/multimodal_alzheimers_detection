@@ -1,4 +1,4 @@
-**Steps to initiate the data files after cloning this repo**
+**Steps to initiate the data files after cloning this repo:**
 
 1. `conda create -n dip_env python=3.10`
 2. `conda activate dip_env`
@@ -15,18 +15,18 @@
 3. Preprocessing techniques with best performance were used and 3D MRI Scans were converted to 2D slices. These pre-processed images can be found here: ([https://github.com/sujayrittikar/dip_project/tree/main/preprocessed_images_3](https://github.com/sujayrittikar/dip_project/tree/main/preprocessed_images_3)).
 4. Unimodal Model Notebooks:
     - Image Models:
-      - ([3D MONAI ResNet-18](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/ResNet.ipynb))
-      - ([3D MONAI ViT](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/ViT.ipynb))
-      - ([ViT CLAHE](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/ViT-CLAHE.ipynb))
-      - ([ViT BPS](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/ViT-Bit_Plane_Slicing.ipynb))
-      - ([2D ViT, DeIT](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/Uni-Modal%20and%20Multi%20Modal%20results.ipynb))
-      - ([BeIT](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/BEIT%20Model%20Code%20for%20end%20to%20end%20training%20and%20inference))
+      - [3D MONAI ResNet-18](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/ResNet.ipynb)
+      - [3D MONAI ViT](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/ViT.ipynb)
+      - [ViT CLAHE](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/ViT-CLAHE.ipynb)
+      - [ViT BPS](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/ViT-Bit_Plane_Slicing.ipynb)
+      - [2D ViT, DeIT](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/Uni-Modal%20and%20Multi%20Modal%20results.ipynb)
+      - [BeIT](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/BEIT%20Model%20Code%20for%20end%20to%20end%20training%20and%20inference)
     - Tabular Models:
-      - ([TabNet](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/TabNet.ipynb))
-      - ([Ft-Transformer](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/Ft-transformer.ipynb))
+      - [TabNet](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/TabNet.ipynb)
+      - [Ft-Transformer](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/Ft-transformer.ipynb)
 5. Multimodal Model Notebooks:
-    - ([ViT-BPS + TabNet Multimodal Fusion](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/ViT-Bit_Plane_Slicing%20%2B%20Multi%20modal%20Fusion%20-%20early%20and%20mid.ipynb))
-    - ([ViT-BPS +_ Ft-Transformer](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/ViT-BPS_FtTransformer_3D.ipynb))
-    - ([DeIT + Ft-Transformer](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/Ft-transformer%20%2B%20Deit.ipynb))
-    - ([GPT-4o Mini](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/gpt_4o.py))
-    - ([Deepseek VL 1.3B](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/deepseek_vl_1_3_b.ipynb))
+    - [ViT-BPS + TabNet Multimodal Fusion](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/ViT-Bit_Plane_Slicing%20%2B%20Multi%20modal%20Fusion%20-%20early%20and%20mid.ipynb)
+    - [ViT-BPS +_ Ft-Transformer](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/ViT-BPS_FtTransformer_3D.ipynb)
+    - [DeIT + Ft-Transformer](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/Ft-transformer%20%2B%20Deit.ipynb)
+    - [GPT-4o Mini](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/gpt_4o.py)
+    - [Deepseek VL 1.3B](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/deepseek_vl_1_3_b.ipynb)
