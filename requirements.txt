@@ -10,3 +10,4 @@ nibabel
 monai
 pytorch-tabnet
 openai
+transformers
