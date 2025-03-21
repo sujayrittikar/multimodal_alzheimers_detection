@@ -1,4 +1,4 @@
-# DIP Project: Exploring Multimodal Fusion and Vision Language Models for Alzheimer’s Disease Detection
+# Exploring Multimodal Fusion and Vision Language Models for Alzheimer’s Disease Detection
 
 **Steps to initiate the data files after cloning this repo:**
 
