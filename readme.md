@@ -1,3 +1,5 @@
+# DIP Project: Exploring Multimodal Fusion and Vision Language Models for Alzheimer’s Disease Detection
+
 **Steps to initiate the data files after cloning this repo:**
 
 1. `conda create -n dip_env python=3.10`
