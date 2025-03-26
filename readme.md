@@ -32,3 +32,4 @@
     - [DeIT + Ft-Transformer](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/Ft-transformer%20%2B%20Deit.ipynb)
     - [GPT-4o Mini](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/gpt_4o.py)
     - [Deepseek VL 1.3B](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/deepseek_vl_1_3_b.ipynb)
+    - [Llava 1.5 7B Fine-tuned using Early Fusion](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/llava_adni.ipynb)
