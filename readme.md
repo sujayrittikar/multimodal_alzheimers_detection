@@ -14,7 +14,7 @@
 **Navigating this repository ⛵️**
 1. For Data Analysis, multiple notebooks and experiments were conducted. These notebooks can be found in [analysis_notebooks](https://github.com/sujayrittikar/dip_project/tree/main/analysis_notebooks).
 2. All forms of the ADNI dataset used are available in the `datasets` repository.
-3. Preprocessing techniques with best performance were used and 3D MRI Scans were converted to 2D slices. The dataset can be requested to [Sujay](suj00rit20@gmail.com) or [Manjot](manjotsinghsran2001@gmail.com)
+3. Preprocessing techniques with best performance were used and 3D MRI Scans were converted to 2D slices. The dataset can be requested to [suj00rit20@gmail.com](mailto:suj00rit20@gmail.com) or [manjotsinghsran2001@gmail.com](mailto:manjotsinghsran2001@gmail.com)
 4. Unimodal Model Notebooks:
     - Image Models:
       - [3D MONAI ResNet-18](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/ResNet.ipynb)
