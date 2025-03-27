@@ -11,7 +11,8 @@
 7. Extract image files to `adni_flat_dataset` directory using the `create_dataset.ipynb` file.
 8. Refer to the `adni_subject_file_ma.json` to map each subject to image files.
 
-**Dataset Access**
+**Dataset Access:**
+
 Access to this repo's datasets is restricted to authorized users. The authorized users can email us at [suj00rit20@gmail.com](mailto:suj00rit20@gmail.com) or [manjotsinghsran2001@gmail.com](mailto:manjotsinghsran2001@gmail.com) for access.
 
 **Navigating this repository ⛵️**
