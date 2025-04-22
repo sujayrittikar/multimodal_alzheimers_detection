@@ -13,7 +13,7 @@
 
 **Dataset Access:**
 
-Access to this repo's datasets is restricted to authorized users. The authorized users can email us at [suj00rit20@gmail.com](mailto:suj00rit20@gmail.com) or [manjotsinghsran2001@gmail.com](mailto:manjotsinghsran2001@gmail.com) for access.
+Access to this repo's datasets is restricted to authorized users. The interested users can email us at [suj00rit20@gmail.com](mailto:suj00rit20@gmail.com) or [manjotsinghsran2001@gmail.com](mailto:manjotsinghsran2001@gmail.com) for access.
 
 **Navigating this repository ⛵️**
 1. For Data Analysis, multiple notebooks and experiments were conducted. These notebooks can be found in [analysis_notebooks](https://github.com/sujayrittikar/dip_project/tree/main/analysis_notebooks).
