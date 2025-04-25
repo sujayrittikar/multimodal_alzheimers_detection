@@ -10,14 +10,14 @@
 1. Download 1Yr 1.5T Dataset from Shared Collections on ADNI Loni website ([https://ida.loni.usc.edu](https://ida.loni.usc.edu)).
 2. SCP the ADNI Dataset to the GPU instance. Ex: `scp -r 'ADNI1_Complete 1Yr 1.5T.zip' your_username@your_gpu:`
 3. Run command `unzip 'ADNI1_Complete 1Yr 1.5T.zip' -d adni_dataset`
-4. Extract image files to `adni_flat_dataset` directory using the `create_dataset.ipynb` file ([https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/create_dataset.ipynb](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/create_dataset.ipynb)).
+4. Extract image files to `adni_flat_dataset` directory using the file ([`create_dataset.ipynb`](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/create_dataset.ipynb)).
 5. Refer to the `adni_subject_file_ma.json` to map each subject to image files.
 
 **OASIS-2:**
 1. Download Longitudinal Subject Data and Longitudinal Scan Data from OASIS-2 website ([https://sites.wustl.edu/oasisbrains/home/oasis-2/](https://sites.wustl.edu/oasisbrains/home/oasis-2/)).
 2. SCP the files to the GPU instance like in ADNI-1 steps.
 3. Unzip all the files
-4. Extract image files to `oasis_2_flat_dataset` directory using the `create_dataset-oasis2.ipynb` file ([https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/create_dataset-oasis2.ipynb](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/create_dataset-oasis2.ipynb)).
+4. Extract image files to `oasis_2_flat_dataset` directory using the file ([`create_dataset-oasis2.ipynb`](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/create_dataset-oasis2.ipynb)).
 5. Map sessions using the Subject Data csv file.
 
 **Dataset Access:**
