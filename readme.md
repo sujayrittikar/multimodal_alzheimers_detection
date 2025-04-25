@@ -5,11 +5,20 @@
 1. `conda create -n dip_env python=3.10`
 2. `conda activate dip_env`
 3. `pip install -r requirements.txt`
-4. Download 1Yr 1.5T Dataset from Shared Collections on ADNI Loni website ([https://ida.loni.usc.edu](https://ida.loni.usc.edu)).
-5. SCP the ADNI Dataset to the GPU instance. Ex: `scp -r 'ADNI1_Complete 1Yr 1.5T.zip' your_username@your_gpu:`
-6. Run command `unzip 'ADNI1_Complete 1Yr 1.5T.zip' -d adni_dataset`
-7. Extract image files to `adni_flat_dataset` directory using the `create_dataset.ipynb` file.
-8. Refer to the `adni_subject_file_ma.json` to map each subject to image files.
+
+**ADNI-1:**
+1. Download 1Yr 1.5T Dataset from Shared Collections on ADNI Loni website ([https://ida.loni.usc.edu](https://ida.loni.usc.edu)).
+2. SCP the ADNI Dataset to the GPU instance. Ex: `scp -r 'ADNI1_Complete 1Yr 1.5T.zip' your_username@your_gpu:`
+3. Run command `unzip 'ADNI1_Complete 1Yr 1.5T.zip' -d adni_dataset`
+4. Extract image files to `adni_flat_dataset` directory using the `create_dataset.ipynb` file ([https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/create_dataset.ipynb](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/create_dataset.ipynb)).
+5. Refer to the `adni_subject_file_ma.json` to map each subject to image files.
+
+**OASIS-2:**
+1. Download Longitudinal Subject Data and Longitudinal Scan Data from OASIS-2 website ([https://sites.wustl.edu/oasisbrains/home/oasis-2/](https://sites.wustl.edu/oasisbrains/home/oasis-2/)).
+2. SCP the files to the GPU instance like in ADNI-1 steps.
+3. Unzip all the files
+4. Extract image files to `oasis_2_flat_dataset` directory using the `create_dataset-oasis2.ipynb` file ([https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/create_dataset-oasis2.ipynb](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/create_dataset-oasis2.ipynb)).
+5. Map sessions using the Subject Data csv file.
 
 **Dataset Access:**
 
@@ -31,12 +40,13 @@ Access to this repo's datasets is restricted to authorized users. The interested
       - [TabNet](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/TabNet.ipynb)
       - [Ft-Transformer](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/Ft-transformer.ipynb)
 5. Multimodal Model Notebooks:
-    - [ViT-BPS + TabNet Multimodal Fusion](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/ViT-Bit_Plane_Slicing%20%2B%20Multi%20modal%20Fusion%20-%20early%20and%20mid.ipynb)
-    - [ViT-BPS +_ Ft-Transformer](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/ViT-BPS_FtTransformer_3D.ipynb)
-    - [DeIT + Ft-Transformer](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/Ft-transformer%20%2B%20Deit.ipynb)
-    - [GPT-4o Mini](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/gpt_4o.py)
-    - [Deepseek VL 1.3B](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/deepseek_vl_1_3_b.ipynb)
-    - [Llava 1.5 7B Fine-tuned using Early Fusion](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/llava_adni.ipynb)
+    - [ViT-BPS + TabNet Multimodal Fusion ADNI-1](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/ViT-Bit_Plane_Slicing%20%2B%20Multi%20modal%20Fusion%20-%20early%20and%20mid.ipynb)
+    - [ViT-BPS +_ FT-Transformer ADNI-1](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/ViT-BPS_FtTransformer_3D.ipynb)
+    - [DeIT + FT-Transformer ADNI-1](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/Ft-transformer%20%2B%20Deit.ipynb)
+    - [DeIT + FT-Transformer OASIS 2](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/multimodal/OASIS2%20-%20multimodal%20experiments.ipynb)
+    - [GPT-4o Mini (for both datasets - change file paths and names)](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/gpt_4o.py)
+    - [Deepseek VL 1.3B (for both datasets - change file paths and names)](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/deepseek_vl_1_3_b.ipynb)
+    - [Llava 1.5 7B Fine-tuned using Early Fusion - change file paths and names for OASIS-2, same code](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/llava_adni.ipynb)
 
 
 *Llava model is Publicly available*
