@@ -54,6 +54,7 @@ Access to this repo's datasets is restricted to authorized users. The interested
     - Multimodal (Early and Mid Fusion):
         - [OASIS-2 multimodal Experiments](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/multimodal/OASIS2%20-%20multimodal%20experiments.ipynb)
         - [ADNI-1 multimodal Experiments](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/multimodal/ADNI1%20Multimodal%20Experiments.ipynb)
+6. The results for each model type is available in the notebooks with Margin of Errors. For 3D-ViT, LLaVa, and GPT-4o Mini, the CSVs with 5 observations are available in: [result_files](https://github.com/sujayrittikar/multimodal_alzheimers_detection/tree/main/result_files). To calculate Mean and MOE, the function can be found in [calculate_moe.py](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/calculate_moe.py).
 
 *Llava model is Publicly available*
 The Llava model built for ADNI 1 dataset is publicly available to use from HuggingFace at [ADNI Llava](https://huggingface.co/sujayrittikar/adni_llava_qlora)
