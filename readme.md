@@ -10,14 +10,14 @@
 1. Download 1Yr 1.5T Dataset from Shared Collections on ADNI Loni website ([https://ida.loni.usc.edu](https://ida.loni.usc.edu)).
 2. SCP the ADNI Dataset to the GPU instance. Ex: `scp -r 'ADNI1_Complete 1Yr 1.5T.zip' your_username@your_gpu:`
 3. Run command `unzip 'ADNI1_Complete 1Yr 1.5T.zip' -d adni_dataset`
-4. Extract image files to `adni_flat_dataset` directory using the file ([`create_dataset.ipynb`](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/create_dataset.ipynb)).
+4. Extract image files to `adni_flat_dataset` directory using the file [`create_dataset.ipynb`](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/create_dataset.ipynb).
 5. Refer to the `adni_subject_file_ma.json` to map each subject to image files.
 
 **OASIS-2:**
 1. Download Longitudinal Subject Data and Longitudinal Scan Data from OASIS-2 website ([https://sites.wustl.edu/oasisbrains/home/oasis-2/](https://sites.wustl.edu/oasisbrains/home/oasis-2/)).
 2. SCP the files to the GPU instance like in ADNI-1 steps.
 3. Unzip all the files
-4. Extract image files to `oasis_2_flat_dataset` directory using the file ([`create_dataset-oasis2.ipynb`](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/create_dataset-oasis2.ipynb)).
+4. Extract image files to `oasis_2_flat_dataset` directory using the file [`create_dataset-oasis2.ipynb`](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/create_dataset-oasis2.ipynb).
 5. Map sessions using the Subject Data csv file.
 
 **Dataset Access:**
@@ -27,7 +27,7 @@ Access to this repo's datasets is restricted to authorized users. The interested
 **Navigating this repository ⛵️**
 1. For Data Analysis, multiple notebooks and experiments were conducted. These notebooks can be found in [analysis_notebooks](https://github.com/sujayrittikar/dip_project/tree/main/analysis_notebooks).
 2. All forms of the ADNI dataset used are available in the `datasets` repository.
-3. Preprocessing techniques with best performance were used and 3D MRI Scans were converted to 2D slices.
+3. Preprocessing techniques with the best performance were used, and 3D MRI Scans were converted to 2D slices.
 4. Unimodal Model Notebooks:
     - Image Models:
       - [3D MONAI ResNet-18](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/ResNet.ipynb)
@@ -36,6 +36,7 @@ Access to this repo's datasets is restricted to authorized users. The interested
       - [ViT BPS](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/ViT-Bit_Plane_Slicing.ipynb)
       - [2D ViT, DeIT](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/Uni-Modal%20and%20Multi%20Modal%20results.ipynb)
       - [BeIT](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/BEIT%20Model%20Code%20for%20end%20to%20end%20training%20and%20inference)
+      - [OASIS-2 Unimodal Experiments](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/unimodal/OASIS2-unimodal-experiments.ipynb)
     - Tabular Models:
       - [TabNet](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/TabNet.ipynb)
       - [Ft-Transformer](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/Ft-transformer.ipynb)
