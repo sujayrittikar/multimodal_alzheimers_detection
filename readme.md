@@ -43,13 +43,14 @@ Access to this repo's datasets is restricted to authorized users. The interested
       - [OASIS-2 Unimodal Experiments](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/unimodal/OASIS2-unimodal-experiments.ipynb)
       - [ADNI-1 Unimodal Experiments](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/unimodal/ADNI%20-Unimodal%20experiments.ipynb)
 5. Multimodal Model Notebooks:
-    - [ViT-BPS + TabNet Multimodal Fusion ADNI-1](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/ViT-Bit_Plane_Slicing%20%2B%20Multi%20modal%20Fusion%20-%20early%20and%20mid.ipynb)
-    - [ViT-BPS +_ FT-Transformer ADNI-1](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/ViT-BPS_FtTransformer_3D.ipynb)
-    - [DeIT + FT-Transformer ADNI-1](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/Ft-transformer%20%2B%20Deit.ipynb)
-    - [DeIT + FT-Transformer OASIS 2](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/multimodal/OASIS2%20-%20multimodal%20experiments.ipynb)
-    - [GPT-4o Mini (for both datasets - change file paths and names)](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/gpt_4o.py)
-    - [Deepseek VL 1.3B (for both datasets - change file paths and names)](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/deepseek_vl_1_3_b.ipynb)
-    - [Llava 1.5 7B Fine-tuned using Early Fusion - change file paths and names for OASIS-2, same code](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/llava_adni.ipynb)
+    - Multimodal Fusion and VLM notebooks:
+        - [ViT-BPS + TabNet Multimodal Fusion ADNI-1](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/ViT-Bit_Plane_Slicing%20%2B%20Multi%20modal%20Fusion%20-%20early%20and%20mid.ipynb)
+        - [ViT-BPS +_ FT-Transformer ADNI-1](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/ViT-BPS_FtTransformer_3D.ipynb)
+        - [DeIT + FT-Transformer ADNI-1](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/Ft-transformer%20%2B%20Deit.ipynb)
+        - [DeIT + FT-Transformer OASIS 2](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/multimodal/OASIS2%20-%20multimodal%20experiments.ipynb)
+        - [GPT-4o Mini (for both datasets - change file paths and names)](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/gpt_4o.py)
+        - [Deepseek VL 1.3B (for both datasets - change file paths and names)](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/deepseek_vl_1_3_b.ipynb)
+        - [Llava 1.5 7B Fine-tuned using Early Fusion - change file paths and names for OASIS-2, same code](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/llava_adni.ipynb)
     - Multimodal (Early and Mid Fusion):
      - [OASIS-2 multimodal Experiments](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/multimodal/OASIS2%20-%20multimodal%20experiments.ipynb)
      - [ADNI-1 multimodal Experiments](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/multimodal/ADNI1%20Multimodal%20Experiments.ipynb)
