@@ -1,4 +1,6 @@
-# Exploring Multimodal Fusion and Vision Language Models for Alzheimer’s Disease Detection
+# Beyond Single Modality: Integrating MRI Scans and Clinical Data for Diagnosis of Alzheimer's Disease
+
+![Preprocessed MRI Scan](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/preprocessed%20brain.png)
 
 **Steps to initiate the data files after cloning this repo:**
 
