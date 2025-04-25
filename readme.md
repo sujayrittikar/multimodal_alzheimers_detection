@@ -39,7 +39,7 @@ Access to this repo's datasets is restricted to authorized users. The interested
       - [OASIS-2 Unimodal Experiments](https://github.com/sujayrittikar/multimodal_alzheimers_detection/blob/main/unimodal/OASIS2-unimodal-experiments.ipynb)
     - Tabular Models:
       - [TabNet](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/TabNet.ipynb)
-      - [Ft-Transformer](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/Ft-transformer.ipynb)
+      - [FT-Transformer](https://github.com/sujayrittikar/dip_project/blob/main/unimodal/Ft-transformer.ipynb)
 5. Multimodal Model Notebooks:
     - [ViT-BPS + TabNet Multimodal Fusion ADNI-1](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/ViT-Bit_Plane_Slicing%20%2B%20Multi%20modal%20Fusion%20-%20early%20and%20mid.ipynb)
     - [ViT-BPS +_ FT-Transformer ADNI-1](https://github.com/sujayrittikar/dip_project/blob/main/multimodal/ViT-BPS_FtTransformer_3D.ipynb)
